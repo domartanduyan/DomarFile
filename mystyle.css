@@ -1,9 +1,16 @@
-
-html {
-    font-family: sans-serif;
-    overflow-x: hidden;
+html{
+	overflow-x:hidden;
 }
-/*-------------style for header-------------------------*/
+
+body{
+	font-family: "Helvetica Neue";
+	background-color: #f5f5f5;
+	margin:0 auto;
+	max-width: 1260px;
+    padding: 0 4.7%;
+}
+
+/*for header*/
 
 body > header:before, body > header:after {
     content: " ";
@@ -12,217 +19,303 @@ body > header:before, body > header:after {
 body > header:after {
     clear: both;
 }
-body > header:before, body > header:after {
-    content: " ";
-    display: table;
-}
+
 body > header {
-    font-family: "Alright Sans","Helvetica Neue",Helvetica,sans-serif;
+    font-family: "Helvetica Neue";
     font-weight: 300;
     margin-bottom: 80px;
+
 }
- footer, header, nav {
+footer, header, nav, section {
     display: block;
 }
-body {
-    background-color: #f5f5f5;
-    color: #383838;
-    font: 400 18px/1.6 "Alright Sans","Helvetica Neue",Helvetica,sans-serif;
-    text-rendering: optimizelegibility;
-}
-
-header{
-	display: block
-}
-
-/*--------------------------------------------------*/
-
-
-.image:hover{
-	opacity: 0.6;
-}
-/*for navigation in header*/
-
-ul {
-    margin: 0;
-    padding: 0;
-    text-align: right;
-}
-body > header nav {
-    text-transform: lowercase;
-    padding-top: 42px;
-}
-body > header {
-    font-family: "Alright Sans","Helvetica Neue",Helvetica,sans-serif;
-    font-weight: 300;
-}
-
-body > header nav li {
-    display: inline;
-    font-size: 1.38889em;
-    padding-left: 20px;
-
-}
-body>header nav li a{ text-decoration:none;
-
-}
-body>header nav li a:hover{
-	opacity: 0.6;
-}
-
-a {
-    color: #383838;
-    text-decoration: none;
-}
-body > header nav li {
-    font-size: 1.38889em;
-}
-
-body > header h1 .tld:after {
-    color: #383838;
-    content: " / ";
-    font-size: 32px;
-    font-weight: 100;
-    letter-spacing: -2px;
-    margin: 0;
-    padding: 0;
-
-}
-/*dotted home*/
-body > header h1 .inputer, body > header h1 input {
-    border-bottom: 1px dotted rgba(0, 0, 0, 0.4);
-    height: 27px;
-}
-
-body > header h1 {
-    font-size: 25px;
-    font-weight: 300;
-}
-
-
 
 body > header h1 {
     float: left;
     font-size: 25px;
     font-weight: 300;
     margin: 5px 0 0;
-}
-h1 {
-    font-family: "Alright Sans","Helvetica Neue",Helvetica,sans-serif;
-    font-weight: 100;
-}
-h1 {
-    font-size: 2em;
-}
-td{text-align: center;}
 
-.imgTitle{
-	font-size: 40px;
-	font-family: "Century Gothic";
-    padding-bottom: 0;
-    margin: 0;
 }
-.imgDesc{
-	font-size: 20px;
-	  font-family: "Century Gothic";
-}
-.imgRow{
-	padding-left:100px;
-	padding-right:100px;
-}
-.visit{
-	background:#93b8ca;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	color:white;
-	font-size: 20px;
-    border-radius: 5px;
-    font-weight: bold;
-}
-.visit:hover{
-	opacity: 0.6;
-}
-.Cpromo{
-	background:#002b49;
-	margin:0 auto;
-	width: 1150px;
-	text-align: center;
-	color: white;
-	font-size: 30px;
-	padding: 15px;
-	margin-top: 100px;
-    border-radius: 5px;
-}
-.Cpromo:hover{
-	opacity: 0.6;
-}
-.Companies {
-    color: #93b8ca;
-    font-family: "Alright Sans","Helvetica Neue",Helvetica,sans-serif;
-    font-size: 2em;
-    font-weight: 300;
-    margin-top:3em;
-    margin-bottom: 0px;
-    text-align: center;
-    text-transform: none;
+h1 {
+    font-family: "Helvetica Neue";
  
 }
-.smart{
-	background:#7ad4ce;color:white;border-radius:5px;height:100px;padding:4px;
-}
-.prod{
-	background:#fdc44f;color:white;border-radius:5px;padding:4px;
-}
-.prod:hover{
-	background: #fcae0d;
-}
-.smart:hover{
-	background: #48c4bb;
-}
-.work:hover{opacity: 0.6;}
-
-.work{
-    color: #93b8ca;
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-}
-
-footer{
-    font-size: 15px;
-    text-align: center;
-    opacity: 0.6;
-}
-footer:hover{
-    opacity: 0.8;
-}
-.Creading{
-    background:#93b8ca;
-    color:white;
-    padding-top:10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight:strong;
-    border-radius:5px;
-    font-weight: bold;
-}
-.Creading:hover{
-    opacity: 0.6;
-}
 .oak{
-    font-family:Rockwell;
-    font-size:60px;
+    font-family: "Courier New";
+    font-size: 45px;
+    text-decoration: none;
 }
 .oak:hover{
-    opacity: 0.6;
+	opacity:0.6;
+}
+body > header h1 .is:after {
+    color: #383838;
+    content: " / ";
+    font-size: 32px;
+    font-weight: 100;
+    letter-spacing: -2px;
+}
+body > header h1 .inputer{
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.4);
+    height: 27px;
 }
 
-.tupac{
-    font-size:25px;
+/*for nav in header*/
+
+body > header nav {
+    float: right;
+    padding-top: 27px;
+    text-transform: lowercase;
 }
-.tupac:hover{
-    opacity: 0.6;
+
+/*-----------------------------------*/
+/*for ul in nav in header*/
+ul{
+    margin: 0;
+    padding: 0;   
 }
+/*------------------------------*/
+/*for li in ul in nav in header*/
+body > header nav li {
+    display: inline;
+    font-size: 1.3em;
+    padding-left: 20px;
+}
+/*-----------------------------------------*/
+/*for a in li in ul in nav in header*/
+
+a {
+    color: #383838;
+    text-decoration: none;
+}
+body > header nav li a:hover{
+	opacity: 0.6;
+}
+
+section:before, section:after {
+    content: " ";
+    display: table;
+}
+section:after {
+    clear: both;
+}
+
+/*------------------------------------------------------------------*/
+/*for h1 in section*/
+body>section > h1 {
+    text-align: center;
+}
+section > h1 {
+    font-size: 60px;
+}
+section > h1 {
+  
+    letter-spacing: -1px;
+    line-height: 1.25;
+    margin: 0 0 110px;
+}
+.smart{
+	background: none repeat scroll 0 0 #7ad4ce;
+	border: 0 none;
+    border-radius: 3px;
+    color: #fff;
+    font-style: normal;
+    padding:5px;
+}
+
+.productive{
+	background: none repeat scroll 0 0 #fdc44f;
+	border: 0 none;
+    border-radius: 3px;
+    color: #fff;
+    font-style: normal;
+    padding:5px;
+}
+
+section:after {
+    clear: both;
+}
+section:before, section:after {
+    content: " ";
+    display: table;
+}
+body .threeTools div {
+    position: relative;
+    text-align: center;
+}
+.Onethird {
+    width: 31%;
+     float: left;
+    margin-right: 3%;
+
+}
+.Onethird:last-child{
+	margin-right: 0;
+}
+
+a.image {
+    border: 0 none;
+}
+/*-----------------------------*/
+/*for img*/
+img {
+    max-width: 100%;
+    border: 0 none;
+}
+
+body .threeTools h4 {
+    font-family: "Arial";
+    font-size: 33px;
+    font-weight: 400;
+    margin: 6px 0;
+}
+/*--------------------------------*/
+/*for p in class Onethird*/
+body .threeTools p {
+    color: rgba(0, 0, 0, 0.4);
+    font-family: "Helvetica Neue";
+    font-size: 25px;
+    font-weight: 300;
+    margin: 0 0 28px;
+}
+/*-------------------------------------------*/
+/*for buttons*/
+
+
+body .threeTools .button {
+    bottom: 0;
+    position: relative;
+}
+a.button {
+    font-family: "Arial";
+    background-color: #93b8ca;
+    border: 0 none;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    padding: 11px 18px 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+}
+
+body a.bluePromo {
+    display: block;
+    font-family: "Helvetica Neue";
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 120px;
+    padding: 15px;
+    text-align: center;
+    text-transform: none;
+}
+
+/*--------------------------------------------------------*/
+/*for blue in bluePromo button*/
+
+body a.bluePromo strong {
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+}
+/*------------------------------------------*/
+
+.companies {
+    color: #a0c0d0;
+    font-family: "Helvetica Neue";
+    font-size: 32px;
+    font-weight: 300;
+    margin: 100px 0;
+    text-align: center;
+    text-transform: none;
+}
+/*-------------------------------------*/
+/*for work with us link*/
+.companies a {
+    color: #a0c0d0;
+    font-family: "Arial";
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/*-------------------*/
+body #blog{
+	font-family: "Arial";
+    min-height: 220px;
+    position: relative;
+}
+.hati {
+    width: 48%;
+}
+.Onethird, .hati {
+    float: left;
+    margin-right: 2%;
+}
+body #blog h4 {
+    font-size: 25px;
+    font-weight: 300;
+    margin: 0 0 1em;
+    text-transform: uppercase;
+}
+/*----------------------------------------*/
+
+/*for h5*/
+
+body #blog h5{
+    font-size: 25px;
+    margin: 0;
+}
+/*------------------------------*/
+
+body #blog h5 a{
+    color: gray;
+}
+/*-----------------------*/
+/*for p in blog*/
+
+body #blog p{
+
+    color: gray;
+    display: inline;
+    font-size: 20px;
+}
+
+body #blog .button{
+    margin-top: 16px;
+}
+
+body > footer {
+    color: gray;
+    font-size: 12px;
+    margin: 100px 0 3em;
+    text-align: center;
+}
+/*----------------------------------*/
+/*for a in footer*/
+
+body > footer a {
+    color: gray;
+}
+
+/*for hover effects*/
+
+body>section > section a:hover,
+body>section a.bluePromo.button.image:hover,
+body>section a:hover,
+#blog h4 a:hover,
+#blog h5 a:hover,
+ footer a:hover{
+    opacity:0.6;
+}
+
+body>section > h1 a.highlight.smart:hover{
+    background: #48c4bb;
+}
+
+body>section > h1 a.highlight.productive:hover{
+    background: #fcae0d;
+}
+/*-----------------------------------*/
+
