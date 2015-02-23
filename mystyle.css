@@ -144,15 +144,18 @@ body .threeTools div {
     position: relative;
     text-align: center;
 }
-.Onethird {
-    width: 31%;
-     float: left;
-    margin-right: 3%;
+@media screen and (min-width: 400px){
+    .Onethird {
+        width: 390px;
+        float: left;
+        margin: 0 20px 20px 0;
+        /*margin: 0 auto 20px;*/
+    }
+    .Onethird:last-child{
+        margin-right: 0;
+    }
+}
 
-}
-.Onethird:last-child{
-	margin-right: 0;
-}
 
 a.image {
     border: 0 none;
@@ -246,13 +249,22 @@ body #blog{
     min-height: 220px;
     position: relative;
 }
-.hati {
+@media screen and(max-width: 400px){
+    #hidden{
+        display: none;
+    }
+}
+@media screen and (min-width: 600px){
+
+    .hati {
     width: 48%;
+    }
+    .Onethird, .hati {
+        float: left;
+        margin-right: 2%;
+    }
 }
-.Onethird, .hati {
-    float: left;
-    margin-right: 2%;
-}
+
 body #blog h4 {
     font-size: 25px;
     font-weight: 300;
@@ -284,6 +296,7 @@ body #blog p{
 
 body #blog .button{
     margin-top: 16px;
+    margin-bottom: 30px;
 }
 
 body > footer {
